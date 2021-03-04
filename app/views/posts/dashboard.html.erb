@@ -1,0 +1,24 @@
+<form method="get" action="/posts/create" id="create_posts">
+    
+    <div class="form-group">
+        <label for="Título" class="form-label">Título</label>
+        <input name="Título" class="form-control" id="Título" arial-describedby="TítuloHelp">
+    </div>
+    
+    <div class="form-group">
+        <label for="Fecha">Fecha</label> 
+        <input name="Fecha" type="date" class="form-control">
+    </div>
+    
+    <div class="form-group">
+        <label for="image_url" class="form-label">Imagen</label>         
+        <input name="image_url" type="text" class="form-control">
+    </div>
+    
+    <div class="form-group">
+        <label for="Contenido" class="form-label">Contenido</label> 
+        <textarea name="Contenido" class="form-control"> </textarea> <!--textarea es para escribir cosas mas grandes-->
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
